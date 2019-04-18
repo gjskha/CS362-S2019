@@ -667,6 +667,74 @@ void adventurerEffect(struct gameState *s, int nowPlayer, int t_hand[]) {
   }
 }
 
+void smithyEffect(struct gameState *s, int nowPlayer, int handPosition) {
+  int i;
+  for (i = 0; i < 3; i++)
+    drawCard(nowPlayer, s);
+  discardCard(handPosition, nowPlayer, s, 0);
+}
+
+void tributeEffect(struct gameState *s, int nowPlayer, int nextPlayer) {
+  int revealedCards[2] = {-1, -1};
+  int curCard;
+  int i;
+  if ((s->discardCount[nextPlayer] + s->deckCount[nextPlayer]) <= 1) {
+    if (s->deckCount[nextPlayer] > 0) {
+      revealedCards[0] = s->deck[nextPlayer][s->deckCount[nextPlayer] - 1];
+      s->deckCount[nextPlayer]--;
+    }
+    else if (s->discardCount[nextPlayer] > 0) {
+      revealedCards[0] = s->discard[nextPlayer][s->discardCount[nextPlayer] - 1];
+      s->discardCount[nextPlayer]--;
+    }
+    else
+      if (DEBUG)
+        printf("No cards to reveal\n");
+  }
+  else {
+    if (s->deckCount[nextPlayer] == 0) {
+      for (i = 0; i < s->discardCount[nextPlayer]; i++) {
+        s->deck[nextPlayer][i] = s->discard[nextPlayer][i];
+        s->deckCount[nextPlayer]++;
+        s->discard[nextPlayer][i] = -1;
+        s->discardCount[nextPlayer]--;
+      }
+      shuffle(nextPlayer, s);
+    }
+
+    /*
+    revealedCards[0] = s->deck[nextPlayer][s->deckCount[nextPlayer] - 1];
+    s->deck[nextPlayer][s->deckCount[nextPlayer]--] = -1;
+    s->deckCount[nextPlayer]--;
+    revealedCards[1] = s->deck[nextPlayer][s->deckCount[nextPlayer]-1];
+    s->deck[nextPlayer][s->deckCount[nextPlayer]--] = -1;
+    s->deckCount[nextPlayer]--;
+    */
+    // This loop should do the same as previous block
+    for (i = 0; i < 2; i++) {
+      revealedCards[i] = s->deck[nextPlayer][s->deckCount[nextPlayer] - 1];
+      s->deck[nextPlayer][s->deckCount[nextPlayer]--] = -1;
+      s->deckCount[nextPlayer]--;
+    }
+  }
+
+  if (revealedCards[0] == revealedCards[1]) {
+    s->playedCards[s->playedCardCount] = revealedCards[1];
+    s->playedCardCount++;
+    revealedCards[1] = -1;
+  }
+  for (i = 0; i < 2; i++) {
+    curCard = revealedCards[i];
+    if (curCard == copper || curCard == silver || curCard == gold) 
+      s->coins += 2;
+    else if (curCard == estate || curCard == duchy || curCard == province || curCard == gardens || curCard == great_hall) {
+      drawCard(nowPlayer, s);
+      drawCard(nowPlayer, s);
+    }
+    else
+      s->numActions = s->numActions + 2;
+  }
+}
 int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus)
 {
   int i;
@@ -677,7 +745,9 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
   int currentPlayer = whoseTurn(state);
   int nextPlayer = currentPlayer + 1;
 
-  int tributeRevealedCards[2] = {-1, -1};
+  // This variable is only used in the Tribute's card effect, which is now refactored, so is no longer needed here
+  // int tributeRevealedCards[2] = {-1, -1};
+  // 
   int temphand[MAX_HAND];// moved above the if statement
   //
   // int drawntreasure=0; This is only used in the adventurer which is now refactored, so is no longer needed here
@@ -863,6 +933,8 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
       return 0;
 		
     case smithy:
+      smithyEffect(state, currentPlayer, handPos);
+      /*
       //+3 Cards
       for (i = 0; i < 3; i++)
 	{
@@ -871,6 +943,8 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 			
       //discard card from hand
       discardCard(handPos, currentPlayer, state, 0);
+      */
+
       return 0;
 		
     case village:
@@ -1021,6 +1095,8 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
       return 0;
 		
     case tribute:
+      tributeEffect(state, currentPlayer, nextPlayer);
+      /*
       if ((state->discardCount[nextPlayer] + state->deckCount[nextPlayer]) <= 1){
 	if (state->deckCount[nextPlayer] > 0){
 	  tributeRevealedCards[0] = state->deck[nextPlayer][state->deckCount[nextPlayer]-1];
@@ -1076,6 +1152,7 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 	  state->numActions = state->numActions + 2;
 	}
       }
+      */
 	    
       return 0;
 		
