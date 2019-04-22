@@ -643,6 +643,10 @@ int getCost(int cardNumber)
   return -1;
 }
 
+//
+// What follows are the refactors as part of Assignment 2
+//
+
 void adventurerEffect(struct gameState *s, int nowPlayer, int t_hand[]) {
   int drawntreasure = 0;
   int z = 0;
@@ -748,13 +752,34 @@ void seahagEffect(struct gameState *s, int nowPlayer) {
   }
 }
 
+int treasuremapEffect(struct gameState *s, int nowPlayer, int handPos) {
+  int i, index = -1;
+  for (i = 0; i < s->handCount[nowPlayer]; i++) {
+    if (s->hand[nowPlayer][i] == treasure_map && i != handPos) {
+      index = i;
+      break;
+    }
+  }
+  if (index > -1) {
+    discardCard(handPos, nowPlayer, s, 1);
+    discardCard(index, nowPlayer, s, 1);
+    for (i = 0; i < 4; i++) {
+      gainCard(gold, s, 1, nowPlayer);
+    }
+    return 1; 
+  }
+  return -1;
+}
+
 int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus)
 {
   int i;
   int j;
   int k;
   int x;
-  int index;
+  // Index is only used in the Treasure Map's card effect, which is now refactored, so is no longer needed here
+  // int index;
+  // 
   int currentPlayer = whoseTurn(state);
   int nextPlayer = currentPlayer + 1;
 
@@ -1318,6 +1343,9 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
       return 0;
 		
     case treasure_map:
+      return treasuremapEffect(state, currentPlayer, handPos);
+
+      /*
       //search hand for another treasure_map
       index = -1;
       for (i = 0; i < state->handCount[currentPlayer]; i++)
@@ -1346,9 +1374,12 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 			
       //no second treasure_map found in hand
       return -1;
+      */
     }
+    
 	
   return -1;
+  
 }
 
 int discardCard(int handPos, int currentPlayer, struct gameState *state, int trashFlag)
