@@ -657,7 +657,7 @@ void adventurerEffect(struct gameState *s, int nowPlayer, int t_hand[]) {
       shuffle(nowPlayer, s);
     drawCard(nowPlayer, s);
     cardDrawn = s->hand[nowPlayer][s->handCount[nowPlayer]-1];
-    if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
+    if (cardDrawn == copper || cardDrawn == silver)
       drawntreasure++;
     else {
       t_hand[z] = cardDrawn;
