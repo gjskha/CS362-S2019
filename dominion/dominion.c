@@ -730,7 +730,7 @@ void tributeEffect(struct gameState *s, int nowPlayer, int nextPlayer) {
   for (i = 0; i < 2; i++) {
     curCard = revealedCards[i];
     if (curCard == copper || curCard == silver || curCard == gold) 
-      s->coins += 2;
+      s->coins += 3;
     else if (curCard == estate || curCard == duchy || curCard == province || curCard == gardens || curCard == great_hall) {
       drawCard(nowPlayer, s);
       drawCard(nowPlayer, s);
