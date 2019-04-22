@@ -761,8 +761,8 @@ int treasuremapEffect(struct gameState *s, int nowPlayer, int handPos) {
     }
   }
   if (index > -1) {
-    discardCard(handPos, nowPlayer, s, 1);
-    discardCard(index, nowPlayer, s, 1);
+    discardCard(handPos, nowPlayer, s, 0);
+    discardCard(index, nowPlayer, s, 0);
     for (i = 0; i < 4; i++) {
       gainCard(gold, s, 1, nowPlayer);
     }
