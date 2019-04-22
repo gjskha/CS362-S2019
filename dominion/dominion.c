@@ -735,6 +735,19 @@ void tributeEffect(struct gameState *s, int nowPlayer, int nextPlayer) {
       s->numActions = s->numActions + 2;
   }
 }
+
+void seahagEffect(struct gameState *s, int nowPlayer) {
+  int i;
+  for (i = 0; i < s->numPlayers; i++) {
+    if (i != nowPlayer) {
+      s->discard[i][s->discardCount[i]] = s->deck[i][s->deckCount[i]--];
+      s->deckCount[i]--;
+      s->discardCount[i]++;
+      s->deck[i][s->deckCount[i]--] = curse;
+    }
+  }
+}
+
 int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState *state, int handPos, int *bonus)
 {
   int i;
@@ -1291,6 +1304,8 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
       return 0;
 		
     case sea_hag:
+      seahagEffect(state, currentPlayer);
+      /*
       for (i = 0; i < state->numPlayers; i++){
 	if (i != currentPlayer){
 	  state->discard[i][state->discardCount[i]] = state->deck[i][state->deckCount[i]--];			    state->deckCount[i]--;
@@ -1298,6 +1313,8 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 	  state->deck[i][state->deckCount[i]--] = curse;//Top card now a curse
 	}
       }
+      */
+
       return 0;
 		
     case treasure_map:
