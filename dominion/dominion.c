@@ -675,7 +675,7 @@ void smithyEffect(struct gameState *s, int nowPlayer, int handPosition) {
   int i;
   for (i = 0; i < 3; i++)
     drawCard(nowPlayer, s);
-  discardCard(handPosition, nowPlayer, s, 0);
+  discardCard(handPosition, nowPlayer, s, 1);
 }
 
 void tributeEffect(struct gameState *s, int nowPlayer, int nextPlayer) {
