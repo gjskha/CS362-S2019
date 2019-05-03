@@ -12,6 +12,9 @@ playdom: dominion.o playdom.c
 testDrawCard: testDrawCard.c dominion.o rngs.o
 	gcc  -o testDrawCard -g  testDrawCard.c dominion.o rngs.o $(CFLAGS)
 
+# assignment 3
+testPlayGardens: testPlayGardens.c dominion.o rngs.o
+	gcc -o testPlayGardens -g testPlayGardens.c dominion.o rngs.o $(CFLAGS) 
 
 #########
 
