@@ -16,8 +16,28 @@ testDrawCard: testDrawCard.c dominion.o rngs.o
 testPlayGardens: testPlayGardens.c dominion.o rngs.o
 	gcc -o testPlayGardens -g testPlayGardens.c dominion.o rngs.o $(CFLAGS) 
 
+unittest1: unittest1.c dominion.o rngs.o
+
+	echo "Result for running Assigment 3 unittest1:" > tests.out
+	gcc -o unittest1 -g unittest1.c dominion.o rngs.o $(CFLAGS) 
+        echo "unittest1.c:" >> tests.out
+	./unittest1 >> tests.out
+	gcov unittest1.c >> tests.out
+        
+
+unittest2: unittest2.c dominion.o rngs.o
+	echo "Result for running Assigment 3 unittest2:" > tests.out
+	gcc -o unittest2 -g unittest2.c dominion.o rngs.o $(CFLAGS) 
+	echo "unittest2.c:" >> tests.out
+	./unittest2 >> tests.out
+	gcov unittest2.c >> tests.out
+        
 #########
 
+randomquiz:
+	gcc -o quiz/testme -g quiz/testme.c $(CFLAGS)
+ 
+##########
 badTestDrawCard: badTestDrawCard.c dominion.o rngs.o
 	gcc -o badTestDrawCard -g  badTestDrawCard.c dominion.o rngs.o $(CFLAGS)
 
