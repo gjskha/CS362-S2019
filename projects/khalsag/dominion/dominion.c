@@ -1307,6 +1307,8 @@ int playSmithy(int currentPlayer, struct gameState *state, int handPos)
 			
   //discard card from hand
   //discardCard(handPos, currentPlayer, state, 0);
+  
+  // if last param is less than one, it is discarded in discardCard.
   discardCard(handPos, currentPlayer, state, TRASHFLAG); // BUG - set to 1
   return 0;
 }
@@ -1319,9 +1321,9 @@ int playAdventurer(int currentPlayer, struct gameState *state) {
   int drawntreasure=0;
   int cardDrawn;
 
-  //while(drawntreasure<2){
-  // introduce BUG here
-  while(drawntreasure<=2){
+  while(drawntreasure<2){
+  // assignment 2 bug here
+ // while(drawntreasure<=2){
 	if (state->deckCount[currentPlayer] <1){//if the deck is empty we need to shuffle discard and add to deck
 	  shuffle(currentPlayer, state);
 	}
@@ -1356,10 +1358,11 @@ int playVillage(int currentPlayer, struct gameState *state, int handPos) {
       state->numActions = state->numActions + 2;
 			
       //discard played card from hand
-      //discardCard(handPos, currentPlayer, state, 0);
-      //return 0;
-      // introduce bug here 
-      return discardCard(handPos, currentPlayer, state, 0);
+      discardCard(handPos, currentPlayer, state, 0);
+      return 0;
+
+      // introduced bug for assignment two here 
+      //return discardCard(handPos, currentPlayer, state, 0);
 
 }
 
@@ -1369,8 +1372,10 @@ int playGreatHall(int currentPlayer, struct gameState *state, int handPos) {
       drawCard(currentPlayer, state);
 			
       //+1 Actions
-      //state->numActions++;
-      state->numActions--; // introduce bug here
+      state->numActions++;
+      
+      // assignment 2 bug
+      //state->numActions--; // introduce bug here
 			
       //discard card from hand
       discardCard(handPos, currentPlayer, state, 0);

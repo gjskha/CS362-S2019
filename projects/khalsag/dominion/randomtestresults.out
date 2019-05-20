@@ -1,0 +1,445 @@
+Result for running randomtestcard1.c:
+Testing playGreatHall.
+File 'randomtestcard1.c'
+Lines executed:100.00% of 34
+Creating 'randomtestcard1.c.gcov'
+
+----
+Result for running randomtestadventurer.c:
+Testing Adventure Card.
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+deckCount is 213, discardCount is 449, handCount is 326, p is 0
+deckCount is 8, discardCount is 652, handCount is 328, p is 0
+ALL TESTS OK
+File 'randomtestadventurer.c'
+Lines executed:100.00% of 28
+Creating 'randomtestadventurer.c.gcov'
+
+----
+Result for running randomtestcard2.c:
+Testing playVillage.
+pre numActions is 1
+post numActions is 3
+pre discardCount is 5
+post discardCount is 5
+pre handcount is 3
+post handcount is 3
+pre deckCount is 5
+post deckCount is 4
+pre numActions is 3
+post numActions is 5
+pre discardCount is 5
+post discardCount is 5
+pre handcount is 1
+post handcount is 1
+pre deckCount is 3
+post deckCount is 2
+pre numActions is 5
+post numActions is 7
+pre discardCount is 4
+post discardCount is 4
+pre handcount is 5
+post handcount is 5
+pre deckCount is 3
+post deckCount is 2
+File 'randomtestcard2.c'
+Lines executed:100.00% of 42
+Creating 'randomtestcard2.c.gcov'
+

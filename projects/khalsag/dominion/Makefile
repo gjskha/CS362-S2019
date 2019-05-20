@@ -1,5 +1,25 @@
 CFLAGS= -Wall -fpic -coverage -lm -std=c99
 
+# assignment 4
+
+randomtestresults: randomtestcard1.c dominion.o rngs.o
+	echo "Result for running randomtestcard1.c:" > randomtestresults.out
+	gcc -o randomtestcard1 randomtestcard1.c dominion.o rngs.o -coverage -lm -std=c99
+	./randomtestcard1 >> randomtestresults.out
+	gcov randomtestcard1.c >> randomtestresults.out
+	echo "----" >> randomtestresults.out
+	echo "Result for running randomtestadventurer.c:" >> randomtestresults.out
+	gcc -o randomtestadventurer randomtestadventurer.c dominion.o rngs.o $(CFLAGS)
+	./randomtestadventurer >> randomtestresults.out
+	gcov randomtestadventurer.c >> randomtestresults.out
+	echo "----" >> randomtestresults.out
+	echo "Result for running randomtestcard2.c:" >> randomtestresults.out
+	gcc -o randomtestcard2 randomtestcard2.c dominion.o rngs.o $(CFLAGS)
+	./randomtestcard2 >> randomtestresults.out
+	gcov randomtestcard2.c >> randomtestresults.out
+
+# end assignment 4
+
 rngs.o: rngs.h rngs.c
 	gcc -c rngs.c -g  $(CFLAGS)
 
@@ -24,7 +44,6 @@ unittest1: unittest1.c dominion.o rngs.o
 	./unittest1 >> tests.out
 	gcov unittest1.c >> tests.out
         
-
 unittest2: unittest2.c dominion.o rngs.o
 	echo "Result for running Assigment 3 unittest2:" > tests.out
 	gcc -o unittest2 -g unittest2.c dominion.o rngs.o $(CFLAGS) 
@@ -37,6 +56,7 @@ unittest2: unittest2.c dominion.o rngs.o
 randomquiz:
 	gcc -o quiz/testme -g quiz/testme.c $(CFLAGS)
  
+
 ##########
 badTestDrawCard: badTestDrawCard.c dominion.o rngs.o
 	gcc -o badTestDrawCard -g  badTestDrawCard.c dominion.o rngs.o $(CFLAGS)
